@@ -1,49 +1,22 @@
-{
-  "packageId": "crowstudios.tech2048.app",
-  "host": "pietrodsk.github.io",
-  "name": "2048 Tech",
-  "launcherName": "2048Tech",
-  "display": "standalone",
-  "themeColor": "#0B1220",
-  "themeColorDark": "#000000",
-  "navigationColor": "#000000",
-  "navigationColorDark": "#000000",
-  "navigationDividerColor": "#000000",
-  "navigationDividerColorDark": "#000000",
-  "backgroundColor": "#0B1220",
-  "enableNotifications": true,
-  "startUrl": "/Tech-2048/",
-  "iconUrl": "https://pietrodsk.github.io/Tech-2048/icon-512.png",
-  "splashScreenFadeOutDuration": 300,
-  "signingKey": {
-    "path": "/Users/pietro/Documents/Personal/tech-2048-twa/android.keystore",
-    "alias": "android"
-  },
-  "appVersionName": "1",
-  "appVersionCode": 1,
-  "shortcuts": [],
-  "generatorApp": "bubblewrap-cli",
-  "webManifestUrl": "https://pietrodsk.github.io/Tech-2048/manifest.webmanifest",
-  "fallbackType": "customtabs",
-  "features": {
-    "playBilling": {
-      "enabled": true
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "crowstudios.tech2048.app",
+      "sha256_cert_fingerprints": [
+        "33:05:D3:5C:07:31:05:36:F2:91:4F:08:63:05:64:E1:F5:02:82:CC:85:08:3B:6D:30:1E:11:CD:29:53:C7:A0"
+      ]
     }
   },
-  "alphaDependencies": {
-    "enabled": false
-  },
-  "enableSiteSettingsShortcut": true,
-  "isChromeOSOnly": false,
-  "isMetaQuest": false,
-  "fullScopeUrl": "https://pietrodsk.github.io/Tech-2048/",
-  "minSdkVersion": 21,
-  "orientation": "default",
-  "fingerprints": [],
-  "additionalTrustedOrigins": [],
-  "retainedBundles": [],
-  "protocolHandlers": [],
-  "fileHandlers": [],
-  "launchHandlerClientMode": "",
-  "appVersion": "1"
-}
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "crowstudios.tech2048.app",
+      "sha256_cert_fingerprints": [
+        "33:05:D3:5C:07:31:05:36:F2:91:4F:08:63:05:64:E1:F5:02:82:CC:85:08:3B:6D:30:1E:11:CD:29:53:C7:A0"
+      ]
+    }
+  }
+]
