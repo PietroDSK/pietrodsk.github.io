@@ -1,1 +1,49 @@
-
+{
+  "packageId": "crowstudios.tech2048.app",
+  "host": "pietrodsk.github.io",
+  "name": "2048 Tech",
+  "launcherName": "2048Tech",
+  "display": "standalone",
+  "themeColor": "#0B1220",
+  "themeColorDark": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#0B1220",
+  "enableNotifications": true,
+  "startUrl": "/Tech-2048/",
+  "iconUrl": "https://pietrodsk.github.io/Tech-2048/icon-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/Users/pietro/Documents/Personal/tech-2048-twa/android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://pietrodsk.github.io/Tech-2048/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {
+    "playBilling": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://pietrodsk.github.io/Tech-2048/",
+  "minSdkVersion": 21,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "fileHandlers": [],
+  "launchHandlerClientMode": "",
+  "appVersion": "1"
+}
