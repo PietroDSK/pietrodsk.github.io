@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pietro DSK · Projetos</title>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8826867524630571"
+     crossorigin="anonymous"></script>
+  <meta name="description" content="Projetos Web e Android. Jogue 2048 Tech e mais." />
+  <meta name="theme-color" content="#0b1220" />
+
+  <style>
+    :root {
+      --bg: #0b1220; --card:#0f172a; --text:#e6f1ff; --muted:#8aa0b8;
+      --border:#1a2330; --accent:#39c0ff; --shadow: rgba(0,0,0,.35);
+    }
+    * { box-sizing: border-box }
+    html, body { height: 100% }
+    body {
+      margin: 0;
+      background: radial-gradient(1200px 1200px at 20% -10%, #0e1a2b, var(--bg));
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+      display: grid; place-items: center;
+    }
+    .wrap {
+      width: min(960px, 94vw);
+      padding: 24px;
+    }
+    header {
+      display:flex; align-items:center; justify-content:space-between; gap:16px;
+      padding: 8px 0 20px; border-bottom: 1px solid var(--border);
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(22px, 4vw, 32px);
+      letter-spacing:.3px;
+      background: linear-gradient(180deg,#e8f3ff,#9ed7ff);
+      -webkit-background-clip:text; background-clip:text; color: transparent;
+      text-shadow: 0 1px 0 rgba(255,255,255,.05);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat( auto-fit, minmax(260px, 1fr) );
+      gap: 16px; padding: 20px 0;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+      box-shadow: 0 18px 40px var(--shadow), inset 0 0 24px rgba(57,192,255,.05);
+    }
+    .card h2 { margin: 0 0 8px; font-size: 18px }
+    .card p  { margin: 0 0 14px; color: var(--muted); font-size: 14px; line-height: 1.45 }
+    .btn {
+      display:inline-flex; align-items:center; justify-content:center; gap:8px;
+      padding:10px 14px; border-radius:12px; border:1px solid var(--border);
+      background: linear-gradient(180deg, var(--accent), #2aa8e2);
+      color:#02131c; font-weight:700; cursor:pointer; text-decoration:none;
+      box-shadow: 0 6px 22px rgba(57,192,255,.25);
+    }
+    footer {
+      margin-top: 6px; color: var(--muted); font-size: 12px; text-align:center;
+    }
+    .links { display:flex; gap:10px; flex-wrap:wrap; }
+    a.link { color: #bfe6ff; text-decoration: none; border-bottom: 1px dashed #2e3a4a }
+    a.link:hover { color: white; border-bottom-style: solid }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Pietro DSK</h1>
+      <nav class="links">
+        <a class="link" href="https://pietrodsk.github.io/Tech-2048/">Tech-2048</a>
+        <!-- adicione outros links se quiser -->
+      </nav>
+    </header>
+
+    <section class="grid">
+      <article class="card">
+        <h2>2048 Tech</h2>
+        <p>Jogo 2048 com tema tech, PWA e TWA publicado. Funciona offline, suporte a mobile e anúncios (consentimento habilitado).</p>
+        <a class="btn" href="https://pietrodsk.github.io/Tech-2048/">Abrir jogo</a>
+      </article>
+
+      <!-- Exemplos de outros cards/projetos
+      <article class="card">
+        <h2>Outro Projeto</h2>
+        <p>Descrição breve do projeto.</p>
+        <a class="btn" href="https://pietrodsk.github.io/outro/">Acessar</a>
+      </article>
+      -->
+    </section>
+
+    <footer>
+      <div>© <span id="year"></span> Pietro DSK • GitHub Pages</div>
+      <div class="links" style="justify-content:center; margin-top:6px">
+        <a class="link" href="https://pietrodsk.github.io/Tech-2048/">Jogar agora</a>
+        <a class="link" href="mailto:pietrodsk@gmail.com">Contato</a>
+        <!-- Se tiver política de privacidade hospedada, linke aqui -->
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Apenas preenche o ano
+    document.getElementById('year').textContent = new Date().getFullYear()
+  </script>
+</body>
+</html>
